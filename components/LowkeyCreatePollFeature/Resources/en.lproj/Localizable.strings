@@ -1,0 +1,12 @@
+"create.poll.header.title" = "New Poll";
+"create.poll.header.button.title" = "Create";
+"create.poll.options.header.title" = "Options";
+"create.poll.question.header.title" = "Question";
+"create.poll.question.placeholder" = "Ask a question";
+"create.poll.question.footer" = "Add an option";
+"create.poll.question.anonymous.setting" = "Anonymous voting";
+"create.poll.question.ability.more.setting" = "Ability to add more options";
+
+"chat.header.title" = "Lowkey Squad";
+"chat.header.subtitle.format" = "%d members * %d online";
+"chat.poll.result.votesNumber.format" = "%d\nvotes";

@@ -1,0 +1,4 @@
+"chat.header.title" = "Lowkey Squad";
+"chat.header.subtitle.format" = "%d members * %d online";
+"chat.vote.result.votesNumber.format" = "%d\nvotes";
+"chat.public.poll.title" = "Public poll";

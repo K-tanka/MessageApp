@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:LowkeyTest/LowkeyTest.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:components"
+      name = "components">
+      <FileRef
+         location = "group:LowkeyChatFeature/LowkeyChatFeature.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:LowkeyCore/LowkeyCore.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:LowkeyCreatePollFeature/LowkeyCreatePollFeature.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:LowkeyInputFieldFeature/LowkeyInputFieldFeature.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:LowkeySharedResources/LowkeySharedResources.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:LowkeySharedUIComponents/LowkeySharedUIComponents.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

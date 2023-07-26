@@ -1,0 +1,33 @@
+import ProjectDescription
+import ProjectDescriptionHelpers
+
+let project = Project(
+    name: "{{ name }}",
+    targets: [
+        Target(
+            name: "{{ name }}",
+            platform: .iOS,
+            product: .framework,
+            bundleId: "\(AppConfiguration.bundleIdApp).{{ name }}",
+            deploymentTarget: AppConfiguration.deploymentTarget,
+            infoPlist: .default,
+            sources: ["Sources/**"],
+            scripts: [
+                .switlintScript
+            ],
+            dependencies: [
+            ]
+        ),
+        Target(
+            name: "{{ name }}Tests",
+            platform: .iOS,
+            product: .unitTests,
+            bundleId: "\(AppConfiguration.bundleIdApp).{{ name }}Tests",
+            deploymentTarget: AppConfiguration.deploymentTarget,
+            infoPlist: .default,
+            sources: ["Tests/**"],
+            resources: [],
+            dependencies: [.target(name: "{{ name }}")]
+        )
+    ]
+)

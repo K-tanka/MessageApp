@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04334903AB9A3EA7A369D26A /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B405115A80286A6E67EE958 /* Poppins-BlackItalic.ttf */; };
+		0ED75ED4287257A62F65867B /* TuistFonts+LowkeySharedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A01EDB9DE91D352DEE6A4 /* TuistFonts+LowkeySharedResources.swift */; };
+		174ED9A94772B010FA048241 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9F94720A3B851405E4DC99B /* Poppins-ExtraLight.ttf */; };
+		2477DA4515942C57D5BC0A80 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DDA2C588A9131AB6C8587 /* Poppins-Black.ttf */; };
+		2EF45DA5C24FA3525FDECDCF /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96171A1F63EF86E951ED4ADD /* Poppins-BoldItalic.ttf */; };
+		31AC8A1B3B402E4D3AC89B58 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 112CE7C98AC898AFD67E13AC /* Poppins-Regular.ttf */; };
+		3C305A614853973ACC25E753 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDBCFD8404A8704A55ED5AF9 /* Poppins-ExtraBoldItalic.ttf */; };
+		3CED3D880255039DDB60D172 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 907B5D737EB25D23FCEDFF69 /* Poppins-SemiBoldItalic.ttf */; };
+		4A151339437AA367D0EE756A /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A0201CE4212C27A98B31C79 /* Poppins-ExtraBold.ttf */; };
+		59043116BF431074E46D8D2F /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E93CB7E08CE958688616F /* Poppins-ExtraLightItalic.ttf */; };
+		5C38AB3498D846766FA090B3 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8DDF0429FE2A8589EA08CE /* Poppins-ThinItalic.ttf */; };
+		5EE64AA8E640670B5C2D9398 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 388931A7B6B033DDCDE9CC9F /* OFL.txt */; };
+		6DE79E6C973B63858F631AE4 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFCFD5D3806CBF9523A6996 /* Poppins-Medium.ttf */; };
+		76302361C48CE9B1FE851053 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0EFE14D682072F336800355 /* Poppins-MediumItalic.ttf */; };
+		78AEA485E4D889663F2186D3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4F81F0B88E135DBE88D773D /* Poppins-SemiBold.ttf */; };
+		798623A08AB613B4D0F04BEB /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4D7E79A3A273AA87AE54E /* Poppins-Thin.ttf */; };
+		83EF8B464F4BFDCD81AC6B50 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 353000473FC9796878F3CFF9 /* Poppins-LightItalic.ttf */; };
+		88C61C578887B5B6E6DF7BAA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 568A782889E2123138AC5859 /* Poppins-Bold.ttf */; };
+		89F03F3B80FEBE9DCBAAABE6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AACB21CA4E14D6EABC96179 /* Media.xcassets */; };
+		973C895A6231CA83354E41D3 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E149F891AB06D095F1930308 /* Poppins-Italic.ttf */; };
+		97F509BBCEE40CC24D067AD0 /* LowkeySharedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8075CCF31E7E0AC2DBCA2B /* LowkeySharedResources.swift */; };
+		9F795096D42B797F9193ABBA /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 979423E564D6A2CBEBA0117F /* Poppins-Light.ttf */; };
+		A564E0E7CD334C9A2A87B04A /* TuistAssets+LowkeySharedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743BD6919B4E90EB3D1AA98 /* TuistAssets+LowkeySharedResources.swift */; };
+		D5CAE27A97E1795B01C40DBB /* TuistBundle+LowkeySharedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E9FEA88CF81D0804569FB2 /* TuistBundle+LowkeySharedResources.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAEF0B299DE4DCB62CA1DDB7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E9FEA88CF81D0804569FB2 /* TuistBundle+LowkeySharedResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+LowkeySharedResources.swift"; sourceTree = "<group>"; };
+		0B405115A80286A6E67EE958 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		112CE7C98AC898AFD67E13AC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1A0201CE4212C27A98B31C79 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		252C2E0CAB3C292CE2F4B36E /* LowkeySharedResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LowkeySharedResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253A01EDB9DE91D352DEE6A4 /* TuistFonts+LowkeySharedResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+LowkeySharedResources.swift"; sourceTree = "<group>"; };
+		2C7E93CB7E08CE958688616F /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		353000473FC9796878F3CFF9 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		388931A7B6B033DDCDE9CC9F /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4743BD6919B4E90EB3D1AA98 /* TuistAssets+LowkeySharedResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+LowkeySharedResources.swift"; sourceTree = "<group>"; };
+		568A782889E2123138AC5859 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5AACB21CA4E14D6EABC96179 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6D3DDA2C588A9131AB6C8587 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		842CD019CA0DB93F852F2259 /* LowkeySharedResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LowkeySharedResources-Info.plist"; sourceTree = "<group>"; };
+		907B5D737EB25D23FCEDFF69 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		96171A1F63EF86E951ED4ADD /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		979423E564D6A2CBEBA0117F /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9AD4D7E79A3A273AA87AE54E /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		BDBCFD8404A8704A55ED5AF9 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CB8DDF0429FE2A8589EA08CE /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D9F94720A3B851405E4DC99B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		DF8075CCF31E7E0AC2DBCA2B /* LowkeySharedResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowkeySharedResources.swift; sourceTree = "<group>"; };
+		DFFCFD5D3806CBF9523A6996 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E149F891AB06D095F1930308 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		E4F81F0B88E135DBE88D773D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		F0EFE14D682072F336800355 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0951220EA9270E8DAEAD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0F77F10A5292E533212381 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DF8075CCF31E7E0AC2DBCA2B /* LowkeySharedResources.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		62BC1FFAF67A5A84BA035EAC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4743BD6919B4E90EB3D1AA98 /* TuistAssets+LowkeySharedResources.swift */,
+				00E9FEA88CF81D0804569FB2 /* TuistBundle+LowkeySharedResources.swift */,
+				253A01EDB9DE91D352DEE6A4 /* TuistFonts+LowkeySharedResources.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		854FC5DE7ADAAED7B1E003DD = {
+			isa = PBXGroup;
+			children = (
+				FE77038D5E7C9C0F509167A2 /* Project */,
+				BFB98013893556D6EDA86973 /* Frameworks */,
+				C540DF72CD63B351B308A3F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9932C8C6BF562A00929812B2 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				842CD019CA0DB93F852F2259 /* LowkeySharedResources-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		A9448878DA7AB7DC2AE77C38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B54AE26655C8387CE3BFDE93 /* Poppins */,
+				5AACB21CA4E14D6EABC96179 /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B54AE26655C8387CE3BFDE93 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				388931A7B6B033DDCDE9CC9F /* OFL.txt */,
+				6D3DDA2C588A9131AB6C8587 /* Poppins-Black.ttf */,
+				0B405115A80286A6E67EE958 /* Poppins-BlackItalic.ttf */,
+				568A782889E2123138AC5859 /* Poppins-Bold.ttf */,
+				96171A1F63EF86E951ED4ADD /* Poppins-BoldItalic.ttf */,
+				1A0201CE4212C27A98B31C79 /* Poppins-ExtraBold.ttf */,
+				BDBCFD8404A8704A55ED5AF9 /* Poppins-ExtraBoldItalic.ttf */,
+				D9F94720A3B851405E4DC99B /* Poppins-ExtraLight.ttf */,
+				2C7E93CB7E08CE958688616F /* Poppins-ExtraLightItalic.ttf */,
+				E149F891AB06D095F1930308 /* Poppins-Italic.ttf */,
+				979423E564D6A2CBEBA0117F /* Poppins-Light.ttf */,
+				353000473FC9796878F3CFF9 /* Poppins-LightItalic.ttf */,
+				DFFCFD5D3806CBF9523A6996 /* Poppins-Medium.ttf */,
+				F0EFE14D682072F336800355 /* Poppins-MediumItalic.ttf */,
+				112CE7C98AC898AFD67E13AC /* Poppins-Regular.ttf */,
+				E4F81F0B88E135DBE88D773D /* Poppins-SemiBold.ttf */,
+				907B5D737EB25D23FCEDFF69 /* Poppins-SemiBoldItalic.ttf */,
+				9AD4D7E79A3A273AA87AE54E /* Poppins-Thin.ttf */,
+				CB8DDF0429FE2A8589EA08CE /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		BFB98013893556D6EDA86973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C540DF72CD63B351B308A3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252C2E0CAB3C292CE2F4B36E /* LowkeySharedResources.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3ADB0B3DC03EEDDEE9B1717 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				9932C8C6BF562A00929812B2 /* InfoPlists */,
+				62BC1FFAF67A5A84BA035EAC /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		FE77038D5E7C9C0F509167A2 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				D3ADB0B3DC03EEDDEE9B1717 /* Derived */,
+				A9448878DA7AB7DC2AE77C38 /* Resources */,
+				1F0F77F10A5292E533212381 /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBE2709165719555AFE6F10 /* LowkeySharedResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC821A13A3B8B69E3782DB4 /* Build configuration list for PBXNativeTarget "LowkeySharedResources" */;
+			buildPhases = (
+				B2E3B5BB27B728B2A6A60ACF /* SwiftLint */,
+				BD004A9A26D91CCEFBA20EF9 /* Sources */,
+				DC49F0F0086C6288E995EC57 /* Resources */,
+				AAEF0B299DE4DCB62CA1DDB7 /* Embed Frameworks */,
+				3B0951220EA9270E8DAEAD2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LowkeySharedResources;
+			productName = LowkeySharedResources;
+			productReference = 252C2E0CAB3C292CE2F4B36E /* LowkeySharedResources.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08333D24876E4AD3A0BD8DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3D808AFE402323901117BFBD /* Build configuration list for PBXProject "LowkeySharedResources" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 854FC5DE7ADAAED7B1E003DD;
+			productRefGroup = C540DF72CD63B351B308A3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBE2709165719555AFE6F10 /* LowkeySharedResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC49F0F0086C6288E995EC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F03F3B80FEBE9DCBAAABE6 /* Media.xcassets in Resources */,
+				5EE64AA8E640670B5C2D9398 /* OFL.txt in Resources */,
+				2477DA4515942C57D5BC0A80 /* Poppins-Black.ttf in Resources */,
+				04334903AB9A3EA7A369D26A /* Poppins-BlackItalic.ttf in Resources */,
+				88C61C578887B5B6E6DF7BAA /* Poppins-Bold.ttf in Resources */,
+				2EF45DA5C24FA3525FDECDCF /* Poppins-BoldItalic.ttf in Resources */,
+				4A151339437AA367D0EE756A /* Poppins-ExtraBold.ttf in Resources */,
+				3C305A614853973ACC25E753 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				174ED9A94772B010FA048241 /* Poppins-ExtraLight.ttf in Resources */,
+				59043116BF431074E46D8D2F /* Poppins-ExtraLightItalic.ttf in Resources */,
+				973C895A6231CA83354E41D3 /* Poppins-Italic.ttf in Resources */,
+				9F795096D42B797F9193ABBA /* Poppins-Light.ttf in Resources */,
+				83EF8B464F4BFDCD81AC6B50 /* Poppins-LightItalic.ttf in Resources */,
+				6DE79E6C973B63858F631AE4 /* Poppins-Medium.ttf in Resources */,
+				76302361C48CE9B1FE851053 /* Poppins-MediumItalic.ttf in Resources */,
+				31AC8A1B3B402E4D3AC89B58 /* Poppins-Regular.ttf in Resources */,
+				78AEA485E4D889663F2186D3 /* Poppins-SemiBold.ttf in Resources */,
+				3CED3D880255039DDB60D172 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				798623A08AB613B4D0F04BEB /* Poppins-Thin.ttf in Resources */,
+				5C38AB3498D846766FA090B3 /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2E3B5BB27B728B2A6A60ACF /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/tuist lint";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD004A9A26D91CCEFBA20EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A564E0E7CD334C9A2A87B04A /* TuistAssets+LowkeySharedResources.swift in Sources */,
+				D5CAE27A97E1795B01C40DBB /* TuistBundle+LowkeySharedResources.swift in Sources */,
+				0ED75ED4287257A62F65867B /* TuistFonts+LowkeySharedResources.swift in Sources */,
+				97F509BBCEE40CC24D067AD0 /* LowkeySharedResources.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C28E165DF041A4B5A90D83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F4D5AF4123444AE06B9EA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7068701F64885DC975980A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/LowkeySharedResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lowkey.ios.LowkeySharedResources;
+				PRODUCT_NAME = LowkeySharedResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6C4795273A90C09732D2E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/LowkeySharedResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lowkey.ios.LowkeySharedResources;
+				PRODUCT_NAME = LowkeySharedResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D808AFE402323901117BFBD /* Build configuration list for PBXProject "LowkeySharedResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D5AF4123444AE06B9EA91 /* Debug */,
+				1C28E165DF041A4B5A90D83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC821A13A3B8B69E3782DB4 /* Build configuration list for PBXNativeTarget "LowkeySharedResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C4795273A90C09732D2E18 /* Debug */,
+				7068701F64885DC975980A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08333D24876E4AD3A0BD8DA8 /* Project object */;
+}
